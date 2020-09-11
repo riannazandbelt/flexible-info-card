@@ -11,7 +11,7 @@ html {
 body {
   font-style: normal;
   margin: 0;
-  background-color: #000;
+  background-color: #fff;
 }
 
 img {
@@ -22,22 +22,60 @@ img {
 a {
   color: #fff;
   background-color: #444;
+  padding: .5rem;
+  border-radius: 4px;
+  margin: 0 0 1.5rem;
 }
 
 
 li:first-child {
-  background-color: #e2e2e2;
-  border-left: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+li:first-child img {
+  width: 100px;
+  margin: 0;
 }
 
 li:nth-child(2) {
-  background-color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+li:nth-child(2) img {
+  width: 100px;
+  margin: 0;
 }
 
 li:nth-child(3) {
-  background-color: #aaa;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+li:nth-child(3) img {
+  width: 100px;
+  margin: 0;
 }
 
 li:last-child {
-  background-color: #999;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+li:last-child img {
+  width: 100px;
+  margin: 0;
 }
