@@ -18,19 +18,33 @@ h2 {
   text-align: center;
 }
 
+ul {
+  padding-left: 2rem;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 0;
+}
+
 img {
   width: 100%;
   display: block;
+}
+
+p {
+max-width: 24rem;
 }
 
 a {
   color: #fff;
   background-color: #444;
   padding: .5rem;
-  border-radius: 4px;
   margin: 0 0 1.5rem;
 }
-
 
 li:first-child {
   display: flex;
